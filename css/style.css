@@ -12,3 +12,35 @@ body{
     color: white;
     margin: 0 auto;
 }
+
+#bgImage{
+    position:absolute;
+    left:0;
+    top:0;
+	max-width:100%;
+    min-width:1880px;;
+    max-height:1400px;
+    min-height:1200px;
+    z-index:-5;
+    filter: brightness(30%);
+}
+
+#clock{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#quotes {
+    position: fixed;  /* set position to fixed */
+    left: 0;
+    right: 0;
+    bottom: 0;  /* set bottom to 0 to align with bottom of the page */
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: rgba(255,255,255,0.8);
+}
+
