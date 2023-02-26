@@ -26,3 +26,4 @@ function onGeoError(){
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOK,onGeoError);
+//week8 
